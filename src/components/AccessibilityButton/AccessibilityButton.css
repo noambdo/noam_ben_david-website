@@ -1,0 +1,71 @@
+.a11y-button {
+  position: fixed;
+  bottom: 90px;
+  inset-inline-end: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--color-accent-dark);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 24px var(--color-shadow);
+  z-index: 90;
+  transition: transform var(--transition-base);
+}
+.a11y-button:hover { transform: translateY(-2px); }
+
+.a11y-panel {
+  position: fixed;
+  bottom: 150px;
+  inset-inline-end: 24px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 18px;
+  box-shadow: 0 18px 40px var(--color-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  z-index: 91;
+}
+.a11y-panel h4 {
+  font-family: var(--font-serif);
+  margin: 0 0 6px;
+  color: var(--color-accent-dark);
+}
+.a11y-panel button {
+  text-align: start;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-soft);
+  font-size: 0.9rem;
+  transition: all var(--transition-base);
+}
+.a11y-panel button.on {
+  background: var(--color-accent-dark);
+  color: #fff;
+  border-color: var(--color-accent-dark);
+}
+.a11y-panel button.reset {
+  background: transparent;
+  color: var(--color-text-muted);
+  border-style: dashed;
+}
+
+/* Effects on body */
+html.a11y-large { font-size: 18px; }
+html.a11y-contrast {
+  --color-text: #000;
+  --color-text-muted: #333;
+  --color-accent-dark: #5b3a22;
+}
+html.a11y-links a { text-decoration: underline !important; }
+
+@media (max-width: 600px) {
+  .a11y-button { bottom: 78px; inset-inline-end: 18px; }
+  .a11y-panel { bottom: 138px; inset-inline-end: 18px; }
+}

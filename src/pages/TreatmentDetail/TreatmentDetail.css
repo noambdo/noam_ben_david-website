@@ -1,0 +1,20 @@
+.td-content {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: right;
+}
+.td-content p {
+  font-size: 1.08rem;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+.td-content .divider { margin: 0 0 28px; }
+
+.td-missing {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.td-missing h1 { margin-bottom: 12px; }
+.td-missing p { margin-bottom: 22px; }

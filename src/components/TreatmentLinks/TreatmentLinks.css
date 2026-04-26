@@ -1,0 +1,52 @@
+.treatment-links .tl-title {
+  text-align: center;
+  color: var(--color-accent-dark);
+}
+
+.tl-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.tl-item {
+  position: relative;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 22px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: all var(--transition-base);
+  font-size: 1.05rem;
+}
+
+.tl-item:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 12px 32px var(--color-shadow);
+  transform: translateY(-2px);
+}
+.tl-item:hover .tl-arrow { transform: translateX(-4px); color: var(--color-accent-dark); }
+
+.tl-watermark {
+  position: absolute;
+  inset-inline-start: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+.tl-arrow {
+  color: var(--color-accent);
+  transition: all var(--transition-base);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 700px) {
+  .tl-grid { grid-template-columns: 1fr; }
+}

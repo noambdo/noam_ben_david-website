@@ -1,0 +1,21 @@
+.float-wa {
+  position: fixed;
+  bottom: 24px;
+  inset-inline-end: 24px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 28px rgba(37, 211, 102, 0.35);
+  z-index: 90;
+  transition: transform var(--transition-base);
+}
+.float-wa:hover { transform: translateY(-3px); }
+
+@media (max-width: 600px) {
+  .float-wa { width: 48px; height: 48px; bottom: 18px; inset-inline-end: 18px; }
+}
