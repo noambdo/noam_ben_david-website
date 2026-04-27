@@ -37,7 +37,7 @@
 }
 .footer-col a:hover { color: var(--color-accent-dark); }
 
-.footer-logo img { height: 60px; margin-bottom: 18px; }
+.footer-logo img { height: 72px; width: auto; object-fit: contain; margin-bottom: 18px; }
 
 .social-row {
   display: flex;

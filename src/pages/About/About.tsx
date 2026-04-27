@@ -57,7 +57,7 @@ export default function About() {
       </ImageTextSection>
 
       <ImageTextSection
-        image={images.noamPortrait}
+        image={images.noamPortrait2}
         imageAlt="ליווי מקצועי"
         eyebrow="חוויית הטיפול"
         title="יחס אישי וליווי מקצועי"
