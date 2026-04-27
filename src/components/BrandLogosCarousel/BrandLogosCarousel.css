@@ -10,14 +10,14 @@
   overflow: hidden;
   width: 100%;
   -webkit-mask-image: linear-gradient(
-    to left,
+    to right,
     transparent 0%,
     #000 8%,
     #000 92%,
     transparent 100%
   );
   mask-image: linear-gradient(
-    to left,
+    to right,
     transparent 0%,
     #000 8%,
     #000 92%,
@@ -26,18 +26,21 @@
 }
 
 /*
-  Track = 2 copies of the brand list.
-  Animation moves exactly -50% (= one full copy).
-  When the first copy exits left, the second copy is pixel-perfect behind it → seamless.
+  CRITICAL: force LTR so flex items always lay out left→right,
+  regardless of the page's dir="rtl".
+  Track = 2 identical copies. Animating -50% moves exactly one
+  full copy, then loops back to 0 — pixel-perfect seamless join.
 */
 .bc-track {
   display: flex;
+  flex-direction: row;         /* explicit — never reversed by RTL */
+  direction: ltr;              /* override page RTL on this element only */
   align-items: center;
   width: max-content;
   list-style: none;
   margin: 0;
   padding: 0;
-  animation: bcScroll 32s linear infinite;
+  animation: bcScroll 34s linear infinite;
   will-change: transform;
 }
 
@@ -45,16 +48,16 @@
   animation-play-state: paused;
 }
 
-/* Logo slots — no borders, just even spacing */
+/* Logo slots */
 .bc-item {
   flex: 0 0 auto;
-  padding: 0 48px;
+  padding: 0 52px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Fixed-size box normalises every logo */
+/* Fixed box normalises every logo regardless of aspect ratio */
 .bc-logo-box {
   width: 160px;
   height: 64px;
@@ -73,6 +76,7 @@
   filter: grayscale(20%) opacity(0.72);
   transition: filter 0.4s ease, transform 0.4s ease;
   user-select: none;
+  pointer-events: none;
 }
 
 .bc-item:hover .bc-logo-box {
@@ -82,7 +86,10 @@
   filter: grayscale(0%) opacity(1);
 }
 
-/* Moves exactly one full set of logos → seamless */
+/*
+  Move -50% = exactly one full brand set → visual at end == visual at start.
+  Loop resets to 0 with no visible jump.
+*/
 @keyframes bcScroll {
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
@@ -97,5 +104,5 @@
 
 @media (max-width: 480px) {
   .bc-logo-box { width: 96px; height: 42px; }
-  .bc-item { padding: 0 22px; }
+  .bc-item { padding: 0 20px; }
 }
