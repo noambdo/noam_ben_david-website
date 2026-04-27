@@ -4,7 +4,7 @@ import homeHeroImg    from '../assets/HomePageHero.png';
 import aboutMeImg     from '../assets/aboutme.png';
 import meAndSerumImg  from '../assets/meAndSerum.png';
 import treatmentRoomImg from '../assets/treatmentRoom.png';
-import treatmentSilverImg from '../assets/TreatmentSilver_cleanup.jpeg';
+import meAndBrushImg from '../assets/meAndBrush.png';
 
 // Central image references — swap URLs here to update the whole site.
 export const images = {
@@ -25,5 +25,5 @@ export const images = {
 
   // Misc
   contactBg:    'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=2000&q=80',
-  questionnaire: treatmentSilverImg
+  questionnaire: meAndBrushImg
 };
