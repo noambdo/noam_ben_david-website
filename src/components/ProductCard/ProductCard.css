@@ -1,42 +1,94 @@
 .product-card {
-  background: var(--color-card);
+  display: flex;
+  flex-direction: column;
+  background: #fff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   overflow: hidden;
-  transition: all var(--transition-base);
-}
-.product-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 18px 40px var(--color-shadow);
-  border-color: var(--color-accent-light);
+  transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1),
+              box-shadow 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+  cursor: pointer;
 }
 
-.pc-image {
-  aspect-ratio: 1/1;
-  background: var(--color-bg-soft);
-  overflow: hidden;
+.product-card:hover {
+  transform: translateY(-6px) scale(1.015);
+  box-shadow: 0 24px 50px var(--color-shadow);
 }
-.pc-image img {
+
+/* Image wrapper with overlay */
+.pc-image-wrap {
+  position: relative;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  background: var(--color-bg-soft);
+}
+
+.pc-image-wrap img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: transform var(--transition-slow);
+  object-fit: contain;
+  padding: 16px;
+  transition: transform 0.55s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
-.product-card:hover .pc-image img { transform: scale(1.04); }
 
-.pc-info { padding: 18px 18px 22px; }
-.pc-category {
-  font-size: 0.78rem;
-  letter-spacing: 0.06em;
-  color: var(--color-text-muted);
-  display: block;
-  margin-bottom: 6px;
+.product-card:hover .pc-image-wrap img {
+  transform: scale(1.06);
 }
+
+/* Hover overlay */
+.pc-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(123, 90, 66, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  backdrop-filter: blur(2px);
+}
+
+.product-card:hover .pc-overlay {
+  opacity: 1;
+}
+
+.pc-overlay span {
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 10px 24px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Info area */
+.pc-info {
+  padding: 18px 18px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pc-category {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
 .pc-name {
-  font-family: var(--font-sans);
-  font-size: 0.98rem;
-  font-weight: 600;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 400;
   color: var(--color-text);
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.35;
+}
+
+.pc-brand {
+  font-size: 0.8rem;
+  color: var(--color-accent);
+  letter-spacing: 0.05em;
 }

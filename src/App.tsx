@@ -10,6 +10,7 @@ import Treatments from './pages/Treatments/Treatments';
 import TreatmentDetail from './pages/TreatmentDetail/TreatmentDetail';
 import Testimonials from './pages/Testimonials/Testimonials';
 import Products from './pages/Products/Products';
+import ProductDetail from './pages/ProductDetail/ProductDetail';
 import Questionnaire from './pages/Questionnaire/Questionnaire';
 import Contact from './pages/Contact/Contact';
 import { useReveal } from './hooks/useReveal';
@@ -33,6 +34,7 @@ export default function App() {
         <Route path="/treatments/:slug" element={<TreatmentDetail />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/:id" element={<ProductDetail />} />
         <Route path="/questionnaire" element={<Questionnaire />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Home />} />
