@@ -2,19 +2,26 @@ import { brands } from '../../data/brands';
 import './BrandLogosCarousel.css';
 
 export default function BrandLogosCarousel() {
-  const loop = [...brands, ...brands];
+  // Triple the list so the seamless loop never shows a gap at any viewport width
+  const loop = [...brands, ...brands, ...brands];
+
   return (
-    <section className="brand-carousel">
-      <div className="container">
-        <div className="bc-track-wrap">
-          <div className="bc-track" aria-label="המותגים שאיתם אנחנו עובדים">
-            {loop.map((b, i) => (
-              <div className="bc-item" key={`${b.id}-${i}`}>
-                <img src={b.logo} alt={b.name} loading="lazy" />
+    <section className="brand-carousel" aria-label="מותגים שאיתם אנחנו עובדים">
+      <div className="bc-track-wrap">
+        <ul className="bc-track" role="list">
+          {loop.map((brand, i) => (
+            <li className="bc-item" key={`${brand.id}-${i}`}>
+              <div className="bc-logo-box">
+                <img
+                  src={brand.logo}
+                  alt={brand.name}
+                  loading="lazy"
+                  draggable={false}
+                />
               </div>
-            ))}
-          </div>
-        </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

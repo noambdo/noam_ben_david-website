@@ -123,7 +123,7 @@ const raw = [
   },
   {
     title: 'CLEAR SOFT SPF 50 M PREVENT',
-    category: 'בלוק 50 SPF שקוף עם מדכא מלנין',
+    category: 'הגנה מהשמש',
     imageUrl: 'https://dermalosophy.co.il/wp-content/uploads/2021/11/resize_קליר-סופא-הגנה-אריזה.jpg',
     description: 'קרם הגנה SPF50 עם עיכוב מלנין והגנה מפני אור כחול.',
     ingredients: [
@@ -138,7 +138,7 @@ const raw = [
   {
     title: 'Block 50 Moisturizer SPF',
     category: 'הגנה מהשמש',
-    imageUrl: 'https://dermalosophy.co.il/wp-content/uploads/2021/11/resize_קליר-סופא-הגנה-אריזה.jpg',
+    imageUrl: 'https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_הגנה-50.jpg',
     description: 'קרם לחות עם SPF50 להגנה מפני השמש.',
     ingredients: [
       'Homosalate',
