@@ -18,7 +18,7 @@ export const brands: Brand[] = [
   {
     id: 'hl',
     name: 'HL Labs',
-    logo: 'https://www.hl-labs.co.il/wp-content/themes/hl/img/logo.png'
+    logo: 'https://www.hl-labs.co.il/wp-content/themes/hl/img/logo_blue.png'
   },
   {
     id: 'kbpure',

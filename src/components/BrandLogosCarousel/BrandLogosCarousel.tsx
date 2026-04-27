@@ -2,8 +2,8 @@ import { brands } from '../../data/brands';
 import './BrandLogosCarousel.css';
 
 export default function BrandLogosCarousel() {
-  // Triple the list so the seamless loop never shows a gap at any viewport width
-  const loop = [...brands, ...brands, ...brands];
+  // Duplicate once → animate -50% → perfect seamless loop, zero gap
+  const loop = [...brands, ...brands];
 
   return (
     <section className="brand-carousel" aria-label="מותגים שאיתם אנחנו עובדים">
