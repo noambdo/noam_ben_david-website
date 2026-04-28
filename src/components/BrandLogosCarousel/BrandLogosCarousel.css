@@ -1,4 +1,13 @@
+/*
+  Carousel must escape the page-wide dir="rtl" inheritance.
+  Otherwise the parent's RTL flow positions the .bc-track at the
+  RIGHT edge of the wrap (so the track natively sits offscreen-left),
+  and translateX(-50%) just pushes it further out of view → big gap on loop.
+
+  Solution: force LTR on the entire carousel subtree.
+*/
 .brand-carousel {
+  direction: ltr;
   padding: 48px 0;
   background: #fff;
   border-block: 1px solid var(--color-border);
@@ -26,15 +35,13 @@
 }
 
 /*
-  CRITICAL: force LTR so flex items always lay out left→right,
-  regardless of the page's dir="rtl".
-  Track = 2 identical copies. Animating -50% moves exactly one
-  full copy, then loops back to 0 — pixel-perfect seamless join.
+  Track = 2 identical copies of the brand list.
+  Animation translates exactly -50% (= one full copy width)
+  before resetting to 0 → pixel-perfect seamless loop.
 */
 .bc-track {
   display: flex;
-  flex-direction: row;         /* explicit — never reversed by RTL */
-  direction: ltr;              /* override page RTL on this element only */
+  flex-direction: row;
   align-items: center;
   width: max-content;
   list-style: none;
@@ -44,21 +51,22 @@
   will-change: transform;
 }
 
-.bc-track:hover {
-  animation-play-state: paused;
-}
+.bc-track:hover { animation-play-state: paused; }
 
 /* Logo slots */
 .bc-item {
   flex: 0 0 auto;
+  min-width: 0;          /* defensive — flex children default to min-width:auto */
   padding: 0 52px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Fixed box normalises every logo regardless of aspect ratio */
+/* Fixed normalising box */
 .bc-logo-box {
+  flex: 0 0 auto;
+  min-width: 0;
   width: 160px;
   height: 64px;
   display: flex;
@@ -79,17 +87,11 @@
   pointer-events: none;
 }
 
-.bc-item:hover .bc-logo-box {
-  transform: scale(1.07);
-}
+.bc-item:hover .bc-logo-box { transform: scale(1.07); }
 .bc-item:hover .bc-logo-box img {
   filter: grayscale(0%) opacity(1);
 }
 
-/*
-  Move -50% = exactly one full brand set → visual at end == visual at start.
-  Loop resets to 0 with no visible jump.
-*/
 @keyframes bcScroll {
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
