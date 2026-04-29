@@ -144,11 +144,18 @@
 }
 
 .products-dropdown ul {
+  /* Reset the inherited flex from .primary-nav ul so items stack vertically */
+  display: block;
   list-style: none;
   margin: 0;
   padding: 6px 0;
+  gap: 0;
 }
-.products-dropdown li { margin: 0; }
+.products-dropdown li {
+  display: block; /* ensure block even when parent was flex */
+  margin: 0;
+  border-bottom: none; /* override .primary-nav li mobile rule */
+}
 
 .products-dropdown a {
   display: block;

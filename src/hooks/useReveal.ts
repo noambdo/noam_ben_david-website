@@ -2,7 +2,9 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 export function useReveal() {
-  const { pathname } = useLocation();
+  // Watch both pathname AND search so the observer re-attaches whenever
+  // the URL changes — including category/page switches on /products.
+  const { pathname, search } = useLocation();
 
   useEffect(() => {
     const attach = () => {
@@ -17,7 +19,9 @@ export function useReveal() {
             }
           });
         },
-        { threshold: 0.12, rootMargin: '0px 0px -60px 0px' }
+        // Reduced rootMargin so cards near the top of the viewport
+        // are still detected after a category switch without scrolling.
+        { threshold: 0.05, rootMargin: '0px 0px -20px 0px' }
       );
       els.forEach(el => io.observe(el));
       return io;
@@ -33,5 +37,5 @@ export function useReveal() {
       const io: IntersectionObserver | undefined = (window as any).__revealIO;
       io?.disconnect();
     };
-  }, [pathname]);
+  }, [pathname, search]);
 }

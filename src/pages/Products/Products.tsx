@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import Hero from '../../components/Hero/Hero';
 import ProductCard from '../../components/ProductCard/ProductCard';
@@ -15,6 +15,15 @@ export default function Products() {
 
   const category = searchParams.get('category') ?? '';
   const page = Math.max(1, Number(searchParams.get('page') ?? '1'));
+
+  // Scroll to top and reset page whenever the category filter changes.
+  const prevCategory = useRef(category);
+  useEffect(() => {
+    if (prevCategory.current !== category) {
+      prevCategory.current = category;
+      window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+    }
+  }, [category]);
 
   const filtered = useMemo(
     () => (category ? products.filter(p => p.category === category) : products),
