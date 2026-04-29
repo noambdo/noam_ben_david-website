@@ -9,7 +9,7 @@ export default function About() {
       <Hero
         image={images.heroAbout}
         eyebrow="הכירי אותי"
-        title="אודות נועם בן דוד"
+        title="נועם בן דוד"
         subtitle="קוסמטיקאית ומטפלת פנים, עם דגש על התאמה אישית, מקצועיות ויחס חם."
       />
 
