@@ -118,6 +118,61 @@
 }
 .megamenu-col a:hover { color: var(--color-accent-dark); }
 
+/* ── Products dropdown ── */
+.has-products-dropdown { position: relative; }
+
+.products-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  inset-inline-start: 0;        /* aligns start edge with the button in RTL */
+  min-width: 230px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: 0 18px 40px var(--color-shadow);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity var(--transition-base), transform var(--transition-base), visibility var(--transition-base);
+  z-index: 200;
+  overflow: hidden;
+}
+.products-dropdown.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.products-dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+}
+.products-dropdown li { margin: 0; }
+
+.products-dropdown a {
+  display: block;
+  padding: 9px 20px;
+  font-size: 0.88rem;
+  color: var(--color-text);
+  transition: background var(--transition-base), color var(--transition-base);
+  white-space: nowrap;
+}
+/* Suppress the nav underline animation inside the dropdown */
+.products-dropdown a::after { display: none !important; }
+
+.products-dropdown a:hover {
+  background: var(--color-bg-soft);
+  color: var(--color-accent-dark);
+}
+
+.pd-all-item {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 2px;
+  margin-bottom: 4px;
+}
+.pd-all-item a { font-weight: 600; }
+
 .header-side {
   display: flex;
   align-items: center;
@@ -198,4 +253,23 @@
   .megamenu-col h4 { font-size: 1rem; padding-bottom: 8px; margin-bottom: 10px; }
   .burger { display: flex; }
   .phone-link { display: none; }
+
+  /* Products dropdown: collapse to max-height on mobile */
+  .has-products-dropdown { position: static; }
+  .products-dropdown {
+    position: static;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--transition-base);
+    background: var(--color-bg-soft);
+  }
+  .products-dropdown.open { max-height: 700px; }
+  .products-dropdown a { padding: 10px 32px; }
+  .pd-all-item { padding-bottom: 0; margin-bottom: 0; }
 }

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { contact } from '../../data/contact';
 import { treatments, treatmentColumns } from '../../data/treatments';
+import { categories } from '../../data/products';
 import { images } from '../../data/images';
 import './Header.css';
 
@@ -9,7 +10,9 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [treatmentsOpen, setTreatmentsOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
   const closeTimer = useRef<number | null>(null);
+  const productsTimer = useRef<number | null>(null);
   const location = useLocation();
 
   useEffect(() => {
@@ -22,8 +25,10 @@ export default function Header() {
   useEffect(() => {
     setIsOpen(false);
     setTreatmentsOpen(false);
-  }, [location.pathname]);
+    setProductsOpen(false);
+  }, [location.pathname, location.search]);
 
+  /* ── Treatments megamenu ── */
   const openMenu = () => {
     if (closeTimer.current) window.clearTimeout(closeTimer.current);
     setTreatmentsOpen(true);
@@ -31,6 +36,16 @@ export default function Header() {
   const scheduleClose = () => {
     if (closeTimer.current) window.clearTimeout(closeTimer.current);
     closeTimer.current = window.setTimeout(() => setTreatmentsOpen(false), 180);
+  };
+
+  /* ── Products dropdown ── */
+  const openProducts = () => {
+    if (productsTimer.current) window.clearTimeout(productsTimer.current);
+    setProductsOpen(true);
+  };
+  const scheduleCloseProducts = () => {
+    if (productsTimer.current) window.clearTimeout(productsTimer.current);
+    productsTimer.current = window.setTimeout(() => setProductsOpen(false), 180);
   };
 
   const renderColumn = (key: keyof typeof treatmentColumns) => {
@@ -53,6 +68,8 @@ export default function Header() {
     );
   };
 
+  const isProductsActive = location.pathname.startsWith('/products');
+
   return (
     <header className={`site-header ${scrolled ? 'scrolled' : ''}`}>
       <div className="header-inner container">
@@ -64,6 +81,8 @@ export default function Header() {
           <ul>
             <li><NavLink to="/" end>ראשי</NavLink></li>
             <li><NavLink to="/about">אודות</NavLink></li>
+
+            {/* ── Treatments megamenu ── */}
             <li
               className="has-mega"
               onMouseEnter={openMenu}
@@ -91,8 +110,44 @@ export default function Header() {
                 </div>
               </div>
             </li>
+
             <li><NavLink to="/testimonials">לקוחות ממליצים</NavLink></li>
-            <li><NavLink to="/products">מוצרים</NavLink></li>
+
+            {/* ── Products dropdown ── */}
+            <li
+              className="has-products-dropdown"
+              onMouseEnter={openProducts}
+              onMouseLeave={scheduleCloseProducts}
+            >
+              <button
+                type="button"
+                className={`nav-trigger ${productsOpen || isProductsActive ? 'active' : ''}`}
+                onClick={() => setProductsOpen(o => !o)}
+                aria-expanded={productsOpen}
+                aria-haspopup="true"
+              >
+                מוצרים
+                <span className="caret" aria-hidden="true">▾</span>
+              </button>
+
+              <div
+                className={`products-dropdown ${productsOpen ? 'open' : ''}`}
+                onMouseEnter={openProducts}
+                onMouseLeave={scheduleCloseProducts}
+              >
+                <ul>
+                  <li className="pd-all-item">
+                    <Link to="/products">כל המוצרים</Link>
+                  </li>
+                  {categories.map(cat => (
+                    <li key={cat}>
+                      <Link to={`/products?category=${encodeURIComponent(cat)}`}>{cat}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </li>
+
             <li><NavLink to="/questionnaire">שאלון התאמה אישית</NavLink></li>
             <li><NavLink to="/contact">יצירת קשר</NavLink></li>
           </ul>

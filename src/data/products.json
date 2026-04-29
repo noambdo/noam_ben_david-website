@@ -1,0 +1,579 @@
+[
+  {
+    "title": "אקנה ביו",
+    "category": "אקנה ועור בעייתי",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_אקנה-ביו.jpg",
+    "description": "תכשיר ברמה גבוהה ביותר אשר מטפל בפרק זמן קצר מאוד בפצעים. מטפל באקנה ומשאיר את העור חלק ללא פצעונים. פעילות המוצר בעור היא אנטי בקטריאלית. המוצר לא ניתן לשימוש לנשים בתקופת הריון / הנקה",
+    "ingredients": [
+      "EPILOBIUM ANGUSTIFOLIUM FLOWER/LEAF/STEM EXTRACT – אנטי חיידקי",
+      "PSORALEA CORYLIFOLIA ALEURITES MOLUCCANA- אנטי חיידקי",
+      "HIPPOPHAE RHAMNOIDES FRUIT- מניעה התפתחות של פצעונים בעור",
+      "BRASSICA NAPUS- מטפל בפצעים בעור"
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "אקנה טריפל ג׳ל",
+    "category": "אקנה ועור בעייתי",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_טירפל-גל.jpg",
+    "description": "תכשיר בעל מרקם ג'לי ולא שומני, המטפל בפצעים וממתן יצור סבום יתר. מתאים לשימוש במקרים של אקנה עם פצעונים ובמקרים של אקנה קומודוגני.",
+    "ingredients": [
+      "SALIX NIGRA (WILLOW) BARK EXTRACT- טיפול בפצעונים ושומן יתר.",
+      "SEBACIC ACID- חומר חזק ביותר המעלים מהעור פצעונים.",
+      "DIPOTASSIUM GLYCYRRHIZATE- חומר המרגיע את העור.",
+      "ADIPIC ACID- חומר אנטי בקטריאלי הקוטל את חיידק האקנה.",
+      "GLYCOLIC ACID- חומצה אשר מחדשת את העור ופותחת נקבוביות סתומות."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "אקנה ריפייר ליקוויד",
+    "category": "אקנה ועור בעייתי",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/Acn.E-Repair-Liquid-4642-scaled.jpg",
+    "description": "מיועד לאקנה קומודוגניקה תכשיר מעולה אשר מחדש בעדינות את העור. מטפל בקומודונים שחורים ושומנים תת עוריים, פותח נקבוביות סתומות, מקלף שכבה עדינה של העור וממתן יצור של סבום תת עורי. המוצר לא ניתן לשימוש לנשים בתקופת הריון / הנקה",
+    "ingredients": [
+      "ADIPIC ACID – חומר אנטי בקטריאלי",
+      "SEBACIC ACID – חומר אשר מטפל בפצעים על פני העור",
+      "RETINYL TALLATE – חידוש עור מזורז ומיתון יצור סבום."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "אקנה סופר ליקוויד",
+    "category": "אקנה ועור בעייתי",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/Acn.E-Super-Liquid-4648-913x1024.jpg",
+    "description": "תכשיר חזק ביותר לטיפול בפצעי אקנה וציסטות/ נודולות פנימיות. התכשיר מייבש באופן מהיר מאוד את הפצע ומעלים אותו מעל פני העור ומתחת. כמו כן, הנוזל ממתן יצור שומן יתר על העור ומונע מפצעים חדשים לצאת.",
+    "ingredients": [
+      "SEBACIC ACID- חומר חזק ביותר המעלים מהעור פצעונים וציסטות",
+      "SALIX ALBA (WILLOW) EXTRACT- טיפול בפצעונים ושומן יתר",
+      "LACTIC ACID- חומצה לקטית אשר מחדשת את העור בעדינות ופותחת נקבוביות סתומות"
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "סופר ליקוויד פורטה לגוף",
+    "category": "אקנה ועור בעייתי",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_אקנה-סופר-ליקוויד-פורטה.jpg",
+    "description": "תכשיר ערב מעולה המיועד לשימוש על עור הגוף בלבד (ללא פנים). אשר מחדש בעדינות את העור. פותח נקבוביות סתומות, מעלים קומודונים שחורים ושומנים תת עוריים, מטפל בנודולות תת עוריות, מייבש פצעונים פעילים במהירות וממתן ייצור סבום מוגבר.",
+    "ingredients": [
+      "ADIPIC ACID- חומר אנטי בקטריאלי",
+      "SEBACIC ACID- חומר אשר מטפל בפצעים על פני העור",
+      "RETINYL TALLATE- חידוש עור מזורז ומיתון יצור סבום."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "טונר לטיפול בעור שמן",
+    "category": "אקנה ועור בעייתי",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_טונר.jpg",
+    "description": "נוזל חומצי המנקה את העור משומניות יתר, מחטא ומייבש פצעונים. זהו תהליך חיוני למראה עור חלק וללא פצעונים. לאחר שימוש בתכשיר, העור ישאר ללא הרגשת שומן יתר.",
+    "ingredients": [
+      "SALIX NIGRA EXT- טיפול בפצעונים ושומן יתר.",
+      "SESAMUM INDICUM EXT- הרגעת העור.",
+      "CIMICIFUGA EXT- איזון רמת השומן בעור.",
+      "SALICYLIC ACID- טיפול בפצעונים ושומן יתר."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "מסכה לעור בעייתי",
+    "category": "אקנה ועור בעייתי",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_מסכה-לעור-בעייתי.jpg",
+    "description": "מסכה מעולה בעלת פעולה משולשת-ניקוי, איזון וריפוי פצעים. המסכה מנקה ומטהרת את עור הפנים בצורה יסודית ועמוקה, מכילה חומרים המאזנים את רמות השומן בעור.",
+    "ingredients": [
+      "ZINC OXYDE- מרגיע את העור",
+      "MULBERRY EXT- תמצית צמח בעל ריכוז גבוה של מנטרלי רדיקאלים אשר מגינים על העור",
+      "MORUS EXT- תמצית צמח בעל ריכוז גבוה של מנטרלי רדיקאלים אשר מגינים על העור",
+      "ALOE EXT- צמח אלוה ורה אשר מרגיע את העור ומלחח אותו",
+      "CYCLODEXTRIN- חומר סופח"
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "לחות אולטרה לעור שמן",
+    "category": "אנה ועור בעייתי",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/לחות-קליר.png",
+    "description": "קרם לחות חיוני מאוד לעור שמן. באמצעות טכנולוגיה ייחודית הוא מעניק מיידית לחות מקסימלית, מרגיע ומאזן את רמות השומן בעור על מנת למנוע היווצרות פצעונים חדשים. הותאם במיוחד לעור שמן ואקנתי.",
+    "ingredients": [
+      "Glycerin",
+      "Alternifolia Leaf",
+      "Dimethicone",
+      "Squalene",
+      "Aloe Arborescens",
+      "Captylyl Glycol",
+      "Carbomer",
+      "Oleanolic Acid",
+      "Xylitol",
+      "Sodium Benzoate"
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "קצף ניקוי עמוק לעור בעייתי",
+    "category": "אקנה ועור בעייתי",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/foam.png",
+    "description": "קצף ניקוי ייחודי המנקה בצורה יסודית ומושלמת את עור הפנים, מבלי לפגוע בלחות הטבעית של העור ומאזן עודפי שומן. משאיר את העור עם הרגשה נפלאה של רעננות. מכין את העור בצורה מושלמת לקליטה של התכשירים הפעילים הנמרחים אחריו. מותאם במיוחד לעור שומני ובעייתי.",
+    "ingredients": [],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "בלוק SPF 50 שקוף עם מדכא מלנין – CLEAR SOFT SPF 50 M PREVENT",
+    "category": "הגנה מהשמש",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/11/resize_%D7%A7%D7%9C%D7%99%D7%A8-%D7%A1%D7%95%D7%A4%D7%90-%D7%94%D7%92%D7%A0%D7%94-%D7%90%D7%A8%D7%99%D7%96%D7%94.jpg",
+    "description": "מוצר חדשני, המשלב גם קרם הגנה עדין בעוצמת SPF 50 וגם מעכב היווצרות מלנין! קרם הגנה שקוף, בעל מרקם חדיש וקטיפתי. מגן על העור מפני שמש וקרני UVA ו-UVB. מגן מפני היווצרות רדיקלים חופשיים, הנגרמים מחשיפה למסכים (אור כחול, החודר לשכבות הספוגיות של העור ואף חודר לשכבות עור עמוקות יותר מקרני השמש) – וזה פוגעים בתאי עור ובגמישותם. מכיל שלושה סוגי מדכאי מלנין שונים, המסייעים למנוע התפרצות כתמי פיגמנטציה סולאריים ומעניק הגנה מירבית מתוך העור ומחוצה לו ומשאיר עור בריא, זוהר ונעים למגע.",
+    "ingredients": [
+      "Isohexadecane",
+      "Dicaprylyl",
+      "Carbonate",
+      "Octorylene",
+      "Ethylhexyl",
+      "Salicylate",
+      "Methoxycinnamate",
+      "Diethylamino",
+      "Hydroxybenzoyl Hexyl",
+      "Aloe Barbadensis Leaf",
+      "Silica",
+      "Cucrcume"
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "קרם לחות עם מקדם הגנה SPF 50 – BLOCK SPF 50 MOISTURIZER WITH SUNSCREEN",
+    "category": "הגנה מהשמש",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_%D7%94%D7%92%D7%A0%D7%94-50.jpg",
+    "description": "BLOCK 50 הינו הקרם המושלם להגנה מפני נזקי השמש וכוויות (UVB וכן נזקי הזדקנות UVA),בעל טכנולוגיית ה\"מראה-Mirror\", מעניק לעורך את הלחות הנחוצה לפני החשיפה לשמש. מכיל מרכיבים המרגיעים את העור ואנטי-אוקסידנטים מהמתקדמים ביותר המקנים הגנה מיידית מפני כל נזק העלול להגרם כתוצאה מהחשיפה לשמש. המרכיבים של BLOCK 50 הותאמו במיוחד לאקלים הישראלי (שמש חזקה) על מנת להקנות לעורך הגנה מושלמת.",
+    "ingredients": [
+      "Homosalate",
+      "Diethylamino",
+      "Hydroxybenzoyl",
+      "Hexyl",
+      "Benzoate",
+      "Methoxycinnamate",
+      "Propylene Glycol",
+      "Cetyl Alcohol",
+      "Potassium Cetyl Phosphate"
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "קרם לחות עם מקדם הגנה SPF 50 דמי מייקאפ – BLOCK SPF 50 DEMI MAKE UP",
+    "category": "הגנה מהשמש",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/Demi-Make-Up-Moisturizing-and-Protection-SPF-50-4637-1-scaled.jpg",
+    "description": "BLOCK 50 דמי מייקאפ הינו הקרם המושלם להגנה מפני נזקי השמש וכוויות (UVB וכן נזקי הזדקנות UVA),בעל טכנולוגיית ה\"מראה-Mirror\", מעניק לעורך את הלחות הנחוצה לפני החשיפה לשמש. ובנוסף בעל כיסוי גוון עדין המתאים את עצמו לגוון העור שלך. מכיל מרכיבים המרגיעים את העור ואנטי-אוקסידנטים מהמתקדמים ביותר המקנים הגנה מיידית מפני כל נזק העלול להגרם כתוצאה מהחשיפה לשמש. המרכיבים של BLOCK 50 הותאמו במיוחד לאקלים הישראלי על מנת להקנות לעורך הגנה מושלמת.",
+    "ingredients": ["water", "Citric Acid", "Dietylamino"],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "לחות עמוקה והגנה עם מסנן קרינה לעור שמן עד רגיל SPF 25 – DEEP MOIST & SPF 25 FOR OILY TO NORMAL SKIN",
+    "category": "הגנה מהשמש",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_הגנה-25.jpg",
+    "description": "BLOCK 25 הינו הקרם המושלם להגנה מפני נזקי השמש וכוויות (UVB וכן נזקי הזדקנות UVA),בעל טכנולוגיית ה\"מראה-Mirror\", מעניק לעורך את הלחות הנחוצה לפני החשיפה לשמש.מכיל מרכיבים המרגיעים את העור ואנטי-אוקסידנטים מהמתקדמים ביותר המקנים הגנה מיידית מפני כל נזק העלול להגרם כתוצאה מהחשיפה לשמש. המרכיבים של BLOCK 25 הותאמו במיוחד לאקלים הישראלי על מנת להקנות לעורך הגנה מושלמת.",
+    "ingredients": ["water", "Isohexadecane", "Carbonate"],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "קרם לקטו + חומצה הילארונית – LACTO CREAM + HYALURONIC ACID",
+    "category": "חידוש עור/קמטים- אנטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2023/11/LACTO-HYALURONIC-CREAM-4650.jpg",
+    "description": "קרם הלקטו אשר גורם לחידוש עור עדין ומעשיר בלחות. תכשיר לאנטי אייג', המיועד לעור עדין וצעיר המחדש את העור על ידי החדרת חומצה לקטית בריכוז 10% ומקנה לחות לעור על ידי החדרה של חומצה הילאורונית.",
+    "ingredients": [
+      "HYALURONIC ACID – זהו לחותן אשר מקנה לחות וגורם לעור ליצור לחות באופן עצמאי ובכך להחזיר לעור גמישות, מפחית קמטים ומראה זוהר. יחודי בשל גודל המולקולה בהיותה קטנה מ-500 דלתון.",
+      "LACTIC ACID – חומצה לקטית, משומשת כגורם לחידוש תאי עור ומסייע לסלק את תאי עור מתים, שהצטברו על האפידרמיס (שכבת עור עליונה). בנוסף משמש כגורם המלחח את העור.",
+      "TOCOPHERYL ACETATE – אלפא-טוקופריל אצטט (ATA) זהו סוג של ויטמין E, אשר משמש כנוגד חמצון, אשר מסייע להילחם ברדיקלים חופשיים, מטפל ומגן על העור ומפחית סימני הזדקנות. החדרת לחותנים עוזרים ליצירת מחסום טבעי מאיבוד לחות בעור."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "מסכה לחותית – SUPER HYDRATING MASK",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2023/12/SUPER-HYDRATING-MASK-4669.jpg",
+    "description": "מסכה אינטנסיבית להחדרת לחות עמוקה לתוך העור ולאורך זמן. מסכת לחות חדישה, הפותרת את בעיית היובש בעור בסביבת האקלים הישראלית, המקנה לחות מעמיקה ביותר. בעזרת הרכיבים ייחודיים המוכחים ביתרונותיהם לשפר את מרקם העור מיידית. בעלת יכולת ספיגה מהירה והקניית לחות מעמיקה המתאימה לעור רגיש, לעור עדין ולעור יבש.",
+    "ingredients": [
+      "SQUALANE – חומר מרכך, המספק לחות אשר מחיה עור פגום, מתקן קמטים משפר את הנראות וגורם למראה זוהר.",
+      "HYALURONIC ACID – חומר המקנה לחות, גורם לעור ליצור לחות ובכך להחזיר לעור מראה גמיש, מפחית קמטים ומעלה זוהר.",
+      "HYDROLYZED COLLAGEN – חומר בעל ריבוי יתרונות: מסייעה בהאטת תהליך הזדקנות העור, גורם ליצירת עור חדיש ובעל מראה צעיר יותר, משפר את המסה ומחזק את העור.",
+      "PHOSPHOLIPIDS – פוספוליפידים, זהו רכיב העוזר ללחותנים (רכיבי לחות) לחדירות גבוהה יותר בעור, אשר עוזר לעור לשמר את הלחות בברמה התאית, למראה עור חי ובריא.",
+      "ALLANTOIN – רכיב העוזר לטפל בגירוי עור ובפריחויות. מקל על הדלקות ועוזר להיפטר מקמטים וצלקות קלות באמצעות הגברת זרימת הדם והעצת יצירת קולגן בעור.",
+      "CAMELLIA SINENSIS LEAF EXTRACT – תמצית תה ירוק, אנטי דלקתי ואנטי בקטריאלי. כמו כן יעיל נגד נזקי קרני UV ועוזר להפחתת אדמומיות של העור."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "סרום 24 לחותן וזוהר – 24 MOIST & GLOW SERUM",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/11/serum.png",
+    "description": "סרום המעניק לעור שלכם מראה זוהר, רענן ובריא כבר מהשימוש הראשון, כמו שכל אחת חולמת למראה ה\"זכוכית\". סרום 24 מבוסס על טכנולוגיה מתקדמת המספקת לחות אינטנסיבית ומתמשכת, ומשאיר את העור רך, נעים וגמיש לאורך כל היום. הפורמולה הייחודית מועשרת בליפידים ורכיבים פעילים המעודדים ייצור סרמידים – מרכיב חיוני בשמירה על מבנה ממברנת התא. רכיבים אלו מסייעים בחיזוק מחסום ההגנה של העור, שימור הלחות והאטת סימני הזדקנות מוקדמים.",
+    "ingredients": [
+      "BETAINE – מקנה לחות לעור.",
+      "HYALURONIC ACID – שומר על הלחות הפנימית בתוך העור וגורם לעור לא להתייבש.",
+      "SODIUM PCA – מלחך את העור.",
+      "CAMELLIA SINENSIS LEAF EXTRACT – צמח הידוע בתור תה ירוק. מקנה אנטי אוקסידנטים הנחוצים לעור.",
+      "BISABOLOL – מטפל ומרפא עור יבש. מחזיר גמישות לעור.",
+      "PLANTAGO LANCEOLATA LEAF EXTRACT – מכיל תכונות ריפוי ושיקום לעור.",
+      "CALOPHYLLUM INOPHYLLUM SEED OIL – שמן עשיר בליפידים המסייע בחיזוק מחסום העור ובשמירה על לחות.",
+      "ARGANIA SPINOSA KERNEL OIL – שמן ארגן עשיר בויטמין E ובחומצות שומן חיוניות, מזין ומרכך את העור.",
+      "SCLEROCARYA BIRREA – תמצית צמחית בעלת תכונות אנטי-אוקסידנטיות ומרככות.",
+      "GLYCOLIPIDS – מגבירים את רמת הלחות בעור ומסייעים בתיקון תאים פגומים.",
+      "GLYCINE STEROLS – רכיב המסייע בחיזוק ממברנת התא ובשימור הלחות."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "סרום הידרט פלוס דור חדש של חומצה הילארונית – SERUM HYDRATE + NEW GENERATION HYALURONIC",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_%D7%A1%D7%A8%D7%95%D7%9D-%D7%94%D7%99%D7%9C%D7%90%D7%A8%D7%95%D7%A0%D7%99%D7%AA.jpg",
+    "description": "מניעת הזדקנות והגנה ברמה גבוהה מפני נזקי עור באמצעות חומצה היאלרונית ייחודית. מקנה לחות על ידי החדרת חומצה הילארונת מדור חדש (fragments) מולקולות קטנות וחדירות במשקל מולקולארי נמוך מ-500 דלתון. בנוסף מטפל בנזקים תת עורית אשר גורמת להזדקנות העור. מכיל לחותנים נוספים אשר מלחחים את העור.",
+    "ingredients": [
+      "BETAINE – מקנה לחות לעור.",
+      "HYALURONIC ACID – שומר על הלחות הפנימית בתוך העור וגורם לעור לא להתייבש.",
+      "SODIUM PCA – מלחך את העור.",
+      "CAMELLIA SINENSIS LEAF EXTRACT – צמח הידוע בתור תה ירוק. מקנה אנטי אוקסידנטים הנחוצים לעור.",
+      "BISABOLOL – מטפל ומרפא עור יבש. מחזיר גמישות לעור.",
+      "PLANTAGO LANCEOLATA LEAF EXTRACT – מכיל תכונות ריפוי ושיקום לעור."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "מסכה מלטשת בעלת פעולה כפולה – DUAL POLISHING MASK",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2023/11/Dual-Polishing-Mask-For-All-Skin-Types-4606.jpg",
+    "description": "מסכה מתקדמת המשלבת פעולת ליטוש עדינה יחד עם הזנה עמוקה של רכיבים פעילים- לתוצאה של מראה עור חלק, זוהר ומלא חיים כבר מהשימוש הראשון. במהלך השימוש, החומרים הפעילים משתחררים בהדרגה תוך כדי פעולת הליטוש ובכך משנים את צבע המסכה ומעניקים לעור טיפול אפקטיבי וממוקד.",
+    "ingredients": [
+      "TRIBEHENIN – רכיב המשלב גליצרין עם חומצת שומן (חומצה בהנית), המסייע בשמירה על רמת לחות אופטימלית בתוך תאי העור ומונע איבוד נוזלים.",
+      "APRICOT (PRUNUS ARMENIACA) SEED POWDER – אבקת זרעי משמש טבעית בעלת אפקט פילינג עדין, המסייעת בהסרת תאי עור מתים, ניקוי עמוק של העור והענקת מראה חלק, נקי וזוהר.",
+      "SODIUM HYALURONATE – נגזרת של חומצה היאלורונית בעלת יכולת ספיחת לחות גבוהה, המסייעת בהגברת הלחות בעור, שיפור הגמישות והפחתת מראה קמטוטים – למראה חי ורענן יותר.",
+      "BISABOLOL – רכיב פעיל הידוע בתכונותיו המרגיעות והאנטי-אוקסידנטיות, המסייע בהפחתת סימני הזדקנות ושומר על מראה עור אחיד, רגוע וצעיר.",
+      "PANTHENOL (פרו-ויטמין B5) – רכיב לחות עוצמתי המסייע בשימור נוזלים בעור, מרכך ומרגיע אותו, ותומך בהגנה מפני גורמים סביבתיים ונזקי יובש."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "מיקרופיל קרם משקם יומי – MICROPEEL RECOVERY CREAM",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%A4%D7%99%D7%9C.jpg",
+    "description": "קרם המיועד לחידוש העור, בעזרת טכנולוגיה ייחודית הוא מסיר את כל התאים המתים וחושף עור חדש, בריא וצעיר יותר וכן ממריץ את התחדשות תאי העור. בעזרת MICROPEEL CREAM עורך יראה זוהר יותר כבר מהמריחה הראשונה. מתאים לכל סוגי העור.",
+    "ingredients": [
+      "GLYCOLIC ACID – מחדש את העור ומגרה ייצור תאים חדשים.",
+      "SODIUM HYALURONATE – מלחח את העור. זהו חומר סיכה טבעי של הגוף המספק ומשמר את רמת הלחות הטבעית בעור.",
+      "SODIUM LACTATE / SODIUM PCA – לחותנים טבעיים המסייעים בשימור הלחות בעור.",
+      "COLA ACUMINATA – תמצית צמחית בעלת תכונות מעוררות ואנטי-אוקסידנטיות.",
+      "THIOLACTIC ACID – חומצה המסייעת בחידוש תאי העור ובהבהרת מראה העור.",
+      "MANDELIC ACID – חומצה מנדלית המסייעת בקילוף עדין וחידוש העור.",
+      "ASCORBYL PALMITATE – נגזרת יציבה של ויטמין C המספקת הגנה אנטי-אוקסידנטית.",
+      "ARNICA MONTANA – תמצית צמחית בעלת תכונות מרגיעות ואנטי-דלקתיות."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "גאלה קרם + חומצה הילארונית – GALA + HYALURONIC CREAM",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_%E2%80%9AEOE%E2%80%9E-%E2%80%94%CB%9C%EF%BF%BD.jpg",
+    "description": "קרם המקנה חידוש עור עדין והקניית לחות. תכשיר לאנטי אייג' לעור עדין וצעיר. מקנה חידוש עור על ידי החדרת חומצה גליקולית בריכוז 10% ולחות לעור על ידי חומצה הילארונית.",
+    "ingredients": [
+      "GLYCOLIC ACID – מחדש את העור ומגרה ייצור תאים חדשים.",
+      "HYALURONIC ACID – מלחח את העור. זהו חומר סיכה טבעי של הגוף המספק ומשמר את רמת הלחות הטבעית בעור.",
+      "GLYCINE – משפר את גמישות העור ואת רמת הלחות."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "סרום פרוטקט ויטמין סי + אנטי אוקסידנטים – SERUM PROTECT VIT. C + ANTIOXYDANTS",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/Skin-Protector-Serum-Multi-Vitamin-C-Anti-Oxidant-Complex-4652-scaled.jpg",
+    "description": "רדיקלים חופשיים הן מולקולות בלתי יציבות, אשר נוצרים בין היתר כתוצאה מזיהום וקרני השמש, יכולים לפגוע באלקטרונים של העור, מה שמוביל לדלקת, לגוון עור לא אחיד ולסימנים להזדקנות מוקדמת של העור. נוגדי חמצון עוזרים למנוע נזק כזה על ידי נטרול ואיזון של רדיקלים חופשיים ובכך מונעים נזק לעור. שימוש בתכשיר המכיל \"סופר אנטי אוקסידנטים מבצע פעולה של תיקון\". שיקום ומעכב הופעת סימני הזדקנות ומגן מפני נזקי עור. מנטרל ראדיקליים חופשיים בצורה היעילה והחזקה ביותר, מונע ומטפל בגליקציה. מכיל כמה סוגים של מנטרלי ראדיקלים + 3 סוגים של ויטמין סי יציבים.",
+    "ingredients": [
+      "ASCORBYL TETRAISOPALMITATE – נגזרת פעילה ויציבה של ויטמין סי.",
+      "ASCORBYL GLUCOSIDE – נגזרת פעילה ויציבה של ויטמין סי.",
+      "TETRAHEXYLDECYL ASCORBATE – נגזרת פעילה ויציבה של ויטמין סי.",
+      "COPPER PCA – מונע איבוד קולגן בעור. משמש כאנטי אוקסידנט.",
+      "FERULIC ACID – אנטי אוקסידנט מהפכני אשר מנטרל רדיקאלים חופשיים.",
+      "BETAINE – מקנה לחות לעור.",
+      "BISABOLOL – מטפל ומרפא עור יבש. מחזיר גמישות לעור."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "טוטאל ריפייר אר אקס – TOTAL REPAIR RX",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_%D7%98%D7%95%D7%98%D7%90%D7%9C-%D7%A8%D7%99%D7%A4%D7%A8-%D7%90%D7%A8%D7%90%D7%A7%D7%A1.jpg",
+    "description": "ה-TOTAL REPAIR RX הינו קרם חדשני העובד על חידוש העור בצורה מדהימה עם תוצאות בדוקות ובטוחות. התכשיר מעלים קמטוטונים ומשפר בצורה משמעותית קמטים גדולים יותר. אודות לשילוב ייחודי של חומרי גלם ייחודיים הקרם משפר באופן דרמטי את מראה העור, מקנה חידוש עור מיידי, מתיחה קלה, ורדרדות קלה על העור ומותיר עור עם מראה חי וצעיר. אחד מהקרמים החשובים ביותר לטיפול בהזדקנות העור.",
+    "ingredients": [
+      "GLUCONOLACTONE – מזין את העור ומזרז התחדשות התאים.",
+      "GOJI BERRY EXT – בעל ריכוז גבוה של אנטי אוקסידנטים המספקים לעור הגנה ותכונות של ANTI-AGING.",
+      "RETINYL TALLATE – חידוש והשלה עדינה של עור.",
+      "LACTIC ACID – מקנה לחות ומראה עור צעיר.",
+      "GLYCOLIC ACID – מחדש את העור ומגרה יצור תאים חדשים.",
+      "SODIUM HYALURONATE – מלחח את העור. זהו חומר סיכה טבעי של הגוף המספק ומשמר את הלחות הטבעית של העור.",
+      "CRANBERRY OIL – עשיר מאוד באנטי אוקסידנטים המקנים הגנה לעור.",
+      "SQUALANE – משפר את מרקם העור, מרפא עור יבש ומונע היווצרות של כתמים.",
+      "LYCEUM BARBARUM – תמצית גוג'י ברי עשירה באנטי-אוקסידנטים המגינה על העור מפני סימני הזדקנות.",
+      "CALCIUM PCA – לחותן המסייע בשימור רמת הלחות הטבעית בעור.",
+      "QUERCETIN CAPRILATE – פלבונואיד אנטי-אוקסידנטי המסייע בהגנה על העור מפני נזקים סביבתיים."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "טוטאל ריפייר פורטה ללילה – TOTAL REPAIR FORTE",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_%D7%98%D7%95%D7%98%D7%90%D7%9C-%D7%A8%D7%99%D7%A4%D7%A8-%D7%A4%D7%95%D7%A8%D7%98%D7%94-1.jpg",
+    "description": "ה-TOTAL REPAIR FORTE הינו קרם חדשני העובד על חידוש העור בצורה מדהימה עם תוצאות בדוקות ובטוחות. הוא הגירסה המחוזקת של ה-TOTAL REPAIR RX. אודות לשילוב ייחודי של חומרי גלם ייחודיים הקרם משפר באופן דרמטי את מראה העור, מקנה חידוש עור מיידי, מתיחה קלה, ורדרדות קלה על העור ומותיר עור עם מראה חי וצעיר. אחד מהקרמים החשובים ביותר לטיפול בהזדקנות העור.",
+    "ingredients": [
+      "GLUCONOLACTONE – מזין את העור ומזרז התחדשות התאים.",
+      "GOJI BERRY EXT – בעל ריכוז גבוה של אנטי אוקסידנטים המספקים לעור הגנה ותכונות של ANTI-AGING.",
+      "RETINYL PROPIONATE – חידוש והשלה עדינה של עור.",
+      "LACTIC ACID – מקנה לחות ומראה עור צעיר.",
+      "GLYCOLIC ACID – מחדש את העור ומגרה יצור תאים חדשים.",
+      "SODIUM HYALURONATE – מלחח את העור. זהו חומר סיכה טבעי של הגוף המספק ומשמר את הלחות הטבעית של העור.",
+      "CRANBERRY OIL – עשיר מאוד באנטי אוקסידנטים המקנים הגנה לעור.",
+      "SQUALANE – משפר את מרקם העור, מרפא עור יבש ומונע היווצרות של כתמים.",
+      "LYCEUM BARBARUM – תמצית גוג'י ברי עשירה באנטי-אוקסידנטים המגינה על העור מפני סימני הזדקנות.",
+      "CALCIUM PCA – לחותן המסייע בשימור רמת הלחות הטבעית בעור.",
+      "QUERCETIN CAPRILATE – פלבונואיד אנטי-אוקסידנטי המסייע בהגנה על העור מפני נזקים סביבתיים."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "סרום מתקן אולטימטיבי לקמטים – ULTIMATE WRINKLE REPAIR SERUM",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_%D7%A1%D7%A8%D7%95%D7%9D-%D7%9E%D7%AA%D7%A7%D7%9F.jpg",
+    "description": "סרום האנטי אייג'ינג האולטימטיבי בעל הטכנולוגיה החדישה ביותר ULTIMATE WRINKLE REPAIR SERUM, המקנה לעורך מראה צעיר ומשאיר את עורך רך ונעים למגע. הוכח מדעית כמתקן ומונע קמטים, על פי מחקרים מתקן כ-70% מאורך ועומק הקמט תוך 28 יום. התוצאות עשויות להשתנות בהתאם לגיל ומצב העור.",
+    "ingredients": [
+      "ACETYL OCTAPEPTIDE-3 – פפטיד מתקדם המסייע בהפחתת קמטי הבעה ומחליק את מראה העור.",
+      "PALMITOYL OLIGOPEPTIDE – פפטיד המסייע בהפחתת קמטים על ידי שיפור התקשורת הבין-תאית ותיקון פגעי עור.",
+      "PALMITOYL TETRAPEPTIDE-7 – פפטיד אנטי-דלקתי המסייע בהפחתת סימני הזדקנות.",
+      "PHENYL BUTYL NITRONE – אנטי-אוקסידנט עוצמתי המנטרל רדיקלים חופשיים.",
+      "DIPEPTIDE DIAMINOBUTYROYL BENZYLAMIDE DIACETATE – פפטיד המסייע בהרפיית שרירי הפנים והפחתת קמטי הבעה.",
+      "AMINOBUTYRIC ACID – חומצה אמינית המסייעת בהרפיית קמטי הבעה.",
+      "PALMITOYL TRIPEPTIDE-5 – פפטיד המגרה ייצור קולגן בעור ומסייע בהפחתת קמטים.",
+      "SNAP-25 – פפטיד מתקדם המדמה השפעת בוטוקס וממתן קמטי הבעה.",
+      "FERULIC ACID – אנטי אוקסידנט מהפכני המקנה הגנה מקרני השמש ומונע הזדקנות העור.",
+      "MAGNESIUM ASCORBYL PHOSPHATE – אנטי אוקסידנט המונע כתמי שמש.",
+      "PHOSPHOLIPIDS – בעל תכונות של לחותן ואנטי אוקסידנט."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "קרם עיניים מתקן – EYE ZONE TOTAL REPAIR",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/resize_%D7%A7%D7%A8%D7%9D-%D7%A2%D7%99%D7%A0%D7%99%D7%99%D7%9D.jpg",
+    "description": "עכשיו בעזרת EYE ZONE TOTAL REPAIR תוכלי להפחית בצורה משמעותית את סימני הגיל מסביב לעיניים. קרם זה משלב את ארבעת המרכיבים החזקים ביותר הקיימים כיום לטיפול בקמטי העור. הקרם מעניק לעור הרגשת לחות עמוקה, מראה צעיר, חלק וזוהר ובנוסף מטפל גם בנפיחות וכהות מתחת לעיניים. משמש כקרם טיפולי וכן כקרם המונע תופעות הזדקנות מסביב לעיניים.",
+    "ingredients": [
+      "PALMITOYL TETRAPEPTIDE-3 – פפטיד המטפל בקמטים.",
+      "ACETYL OCTAPEPTIDE-3 – פפטיד המטפל בקמטים.",
+      "PALMITOYL PENTAPEPTIDE-3 – פפטיד המטפל בקמטים.",
+      "PALMITOYL OLIGOPEPTIDE – פפטיד המטפל בקמטים.",
+      "CHRYSIN – ביופלבונויד חזק במיוחד המטפל בכהות מתחת לעיניים. איזופלאבון צמחי אשר מפרק משקעים כהים מתחת לעיניים.",
+      "SODIUM HYALURONATE – מלחח את העור, זהו חומר סיכה טבעי של הגוף המספק ומשמר את הלחות הטבעית של העור.",
+      "HESPERIDIN – מטפל בכהות מתחת לעיניים.",
+      "PEA EXT – מכיל חומצות אמינו וחלבונים ליצור קולגן ואלסטין.",
+      "GLYCOLIPIDS – מגביר לחות בעור, עוזר בתיקון של תאים פגומים והתוצאה עור בריא וצעיר יותר.",
+      "DIPEPTIDE-2 – מטפל בנפיחות מתחת לעיניים.",
+      "HESPERIDIN METHYL CHALCONE – טיפול בכהויות מתחת לעיניים.",
+      "HYDROXYSUCCINIMIDE – טיפול בכהויות מתחת לעיניים.",
+      "THIOCTIC ACID – אנטי אוקסידנט מנטרל רדיקלים חופשיים.",
+      "TETRAHEXYLDECYL ASCORBATE – נגזרת יציבה ובטוחה של ויטמין סי."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "לחות הידרטור אקטיבי לעור רגיל עד יבש – ACTIVE HYDRATOR / MOISTURIZER FOR NORMAL TO DRY SKIN",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/Active-Hydrator-Comples-Total-Moisturizer-For-Normal-To-Dry-Skin-4623-scaled.jpg",
+    "description": "ACTIVE HYDRATOR MOISTURIZER- הינו קרם לחות המותאם לעור רגיל עד יבש אשר הוכח מדעית כמשפר את רמת הלחות בעור ב-25% יותר. באמצעות טכנולוגיה ייחודית ועל ידי שימוש ב-SMART-HYDRATORS (לחותנים חכמים) הוא משחזר את הלחות הטבעית של העור ובכך מחזיר לעורך את הזוהר, המוצקות והחלקות של עור צעיר ובריא. מתקן ומחדש את העור ומקנה לו לחות מקסימלית. שימוש קבוע בתכשיר מגביר את המניעה של הופעת סימני הזדקנות.",
+    "ingredients": [
+      "SWEET ALMOND OIL – עשיר בויטמינים E ו-D, מגנזיום וסידן. מזין ומשפר את רמת הלחות בעור ומקנה לו זוהר והרגשת חלקות.",
+      "GLYCOLIPIDS – מגביר את רמת הלחות בעור, עוזר בתיקון של תאים פגומים והתוצאה עור בריא וצעיר יותר.",
+      "SQUALENE – משפר את מרקם העור, מרפא עור יבש ומונע היווצרות של כתמים.",
+      "PALMITOYL OLIGOPEPTIDE – עוזר בהפחתת קמטים על ידי שיפור התקשורת הבין-תאית ומתקן פגעי עור.",
+      "CAMELLIA SINENSIS EXT – מרגיע את העור ומנטרל רדיקלים חופשיים המזיקים לעור."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "לחות הידרטור אקטיבי לעור יבש מאוד – ACTIVE HYDRATOR MOISTURIZER FOR VERY DRY SKIN",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/Active-Hydrator-Comples-Total-Moisturizer-For-Very-Dry-Skin-4624-scaled.jpg",
+    "description": "ACTIVE HYDRATOR MOISTURIZER FOR VERY DRY SKIN הינו קרם לחות מותאם לעור יבש מאוד, הוכח מדעית כמשפר את רמת הלחות בעור ב-25% יותר. משחזר את הלחות הטבעית של העור על ידי שימוש ב-SMART-HYDRATORS (לחותנים חכמים) ובכך מחזיר לעור את הזוהר, מוצקות וחלקות של עור צעיר ובריא. מתקן ומחדש את העור ומקנה לו לחות מקסימלית. שימוש קבוע בתכשיר מגביר את המניעה של הופעת סימני הזדקנות.",
+    "ingredients": [
+      "SWEET ALMOND OIL – עשיר בויטמינים E ו-D, מגנזיום וסידן. מזין ומשפר את רמת הלחות בעור ומקנה לו זוהר והרגשת חלקות.",
+      "GLYCOLIPIDS – מגביר את רמת הלחות בעור, עוזר בתיקון של תאים פגומים והתוצאה עור בריא וצעיר יותר.",
+      "SQUALENE – משפר את מרקם העור, מרפא עור יבש ומונע היווצרות של כתמים.",
+      "PALMITOYL OLIGOPEPTIDE – עוזר בהפחתת קמטים על ידי שיפור התקשורת הבין-תאית ומתקן פגעי עור.",
+      "CAMELLIA SINENSIS EXT – מרגיע את העור ומנטרל רדיקלים חופשיים המזיקים לעור."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "קצף ניקוי לכל סוגי העור – SLS FREE DEEP CLEANSER FOR ALL SKIN TYPES",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/foam-3.png",
+    "description": "קצף לניקוי עמוק ויסודי של עור הפנים, אינו פוגע בלחות הטבעית של העור. מכין את העור בצורה מושלמת לקליטה של התכשירים הפעילים הנמרחים אחריו. משאיר את העור עם הרגשה נפלאה של רעננות. מותאם במיוחד לכל סוגי העור.",
+    "ingredients": [],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "גלו ג'ל – GLOW GEL",
+    "category": "חידוש העור/קמטים- אניטי אייג'ינג",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/Glow-Gel-4640-scaled.jpg",
+    "description": "סרום אנטי אייג' המיועד לטיפול בעור שמן. סרום פעיל מתאים לבוקר אשר מאזן ומוריד את רמת השומניות בעור ויצור הסבום. חידוש עור ללא קילוף, איזון רמת השומניות והפחתת יצור הסבום של בלוטות החלב. ניתן למרוח על הפנים ועל פי היכולת של העור גם בצוואר ומחשוף.",
+    "ingredients": [
+      "GLYCOLIC ACID – מחדש את העור ופותח נקבוביות סתומות.",
+      "ADIPIC ACID – ממתן יצור של שומן תת עורי.",
+      "SALICYLIC ACID – מטפל וממתן שומן על פני העור.",
+      "SALIX NIGRA BARK EXT – מונע היווצרות של שומן על פני העור."
+    ],
+    "brand": "Dermalosophy"
+  },
+  {
+    "title": "רוזה ג׳ל - ROSA GEL",
+    "category": "רוזציאה",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/Rosa-Gel-4657-scaled.jpg",
+    "description": "רוזה ג׳ל הוא ג׳ל טיפולי המיועד לטיפול בעור עם רוזציאה ואדמומיות. רוזיציאה היא תופעת עור נפוצה, בעיקר אצל בעלי עור בהיר, שמופיעה לרוב אחרי גיל 30. היא מתחילה באדמומיות והסמקה באזור הפנים (מצח, לחיים, אף וסנטר), ועלולה להחמיר עם הזמן ולהוביל להופעת כלי דם גלויים ואף פצעונים דמויי אקנה (Acne Rosacea). הגורמים אינם ידועים בוודאות, אך ישנם טריגרים שכיחים כמו חשיפה לשמש, מתח, חום, רוח, פעילות גופנית, אלכוהול, מזון חריף ותכשירים לא מתאימים לעור. מדובר במצב כרוני שאינו מדבק, ועלול להופיע בגלים. אין ריפוי מלא, אך בעזרת טיפול נכון ומקצועי ניתן לשלוט בתסמינים ולשפר משמעותית את מראה העור.",
+    "ingredients": [
+      "DIPOTASSIUM GLYCYRRHIZATE",
+      "ADIPIC ACID"
+    ],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "סבו קרם - SEBO CREAM",
+    "category": "סבוריאה",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/Sebo-Cream-4644-scaled.jpg",
+    "description": "קרם המטפל בסבוריאה, קשקשת בעור הפנים. מעלים סבוריאה בכמה ימים בודדים. סבוריאה היא מחלת עור דלקתית כרונית המופיעה בעיקר בקרקפת ובאזורים שומניים בפנים, ומתבטאת באדמומיות, גירוי וקשקשת. היא נגרמת מהפרשת שומן מוגברת ולעיתים קשורה לפטרייה בשם Malassezia, לצד גורמים כמו גנטיקה, הורמונים ומערכת החיסון. אין ריפוי מלא, אך ניתן לשלוט בתסמינים באמצעות טיפול מתאים, המסייע להרגיע את העור ולהפחית דלקת, פטריות וחיידקים, תוך שיפור מהיר במראה העור.",
+    "ingredients": [
+      "DIPOTASSIUM GLYCYRRHIZAT",
+      "GLYCYRRHIZA GLABRA LICORICE",
+      "TRIFOLIUM PRATENSE EXT",
+      "GALIUM APARINE EXT",
+      "CALENDULA OFF"
+    ],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "ביו קרם להרגעת לעור- BIO ULTA CALM CREAM",
+    "category": "הרגעה ושיקום",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/11/resize_%D7%A7%D7%A8%D7%9D-%D7%91%D7%99%D7%95-1.jpg",
+    "description": "קרם הרגעה מיידי ועוצמתי, המלחח ומטפל באדמומיות וגירויים של העור הנגרמו מפרוצדורות במכון, כוויות מהשמש, טיפולי שעווה וגילוח וכד'.",
+    "ingredients": [
+      "תמצית צמח הליקוריץ – Glycyrrhizate Dipotassium בשילוב עם Glycyrrhetine Zinc (מרכיבים בעלי תכונות אנטי-דלקתיות) בשילוב עם מרכיבים נוספים, הקרם יטפל בתחושת העקצוצים והגירוי של העור.",
+      "MULBERRY (MORUS ALBA) EXTRACT",
+      "DIPOTASSIUM GLYCYRRHIZATE",
+      "ZINC GLYCYRRHETINATE"
+    ],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "מייק אפ תיקון וטשטוש- MAKE UP BLUR & CORRECT",
+    "category": "עור שמן",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2023/10/Make-Up-Blur-Correct-4662-854x1024.jpg",
+    "description": "מייק אפ, לא קומודוגני ולא שומני, מתאים לעור אקנתי. מטשטש ומסתיר פגעי עור וכתמים. מקנה מראה עור טבעי ובריא. בעל מרקם קל ונח לשימוש ומריחה. קיימים מספר גוונים לפי סקלת פיצפטריק 1-5.",
+    "ingredients": [],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "פיגמנטי ניו סקין- PIGMENTO NEW SKIN",
+    "category": "פיגמנטציה והבהרה",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2023/03/pigmento-scaled.jpg",
+    "description": "תכשיר לטיפול בהבהרת העור, מסייע בהורדת יצור מלנין, עוזר לחסום השתחררות המלנין לעור וכן מפרק את המלנין הקיים ובכך מביא להתבהרות העור. התכשיר אינו מגרה את העור, מתאים גם לבעלי עור רגיש.",
+    "ingredients": [
+      "Diethylaminomethylcoumarin",
+      "Acid Clover",
+      "Dichlorobenzyl Alcohol",
+      "Superoxide",
+      "Dismutase",
+      "Galium Aparine Extract",
+      "Phenylethyl Resorcinol",
+      "Phenoxiatnol",
+      "Ethyhexylglycerin",
+      "Lsobutyamido"
+    ],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "קצף ניקוי בי וויט- B-WHITE CLEANSER FOAM",
+    "category": "פיגמנטציה והבהרה",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/foam2.png",
+    "description": "קצף ניקוי המבהיר ומנקה בצורה יסודית ומושלמת את עור הפנים, מבלי לפגוע בלחות הטבעית של העור ומותאם במיוחד לעור בעל גוון לא אחיד. מכין את העור בצורה מושלמת לקליטה של התכשירים הפעילים הנמרחים אחריו. משאיר את העור עם הרגשה נפלאה של רעננות.",
+    "ingredients": [],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "וויט בוסטר ליקוויג׳ל- WHITE BOOSTER LIQUIGEL",
+    "category": "פיגמנטציה והבהרה",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2023/01/WHITE-BOOSTER-LIQUIGEL-4691-scaled.jpg",
+    "description": "תכשיר הבהרה מתקדם המשלב חידוש ומיצוק העור, מפחית ייצור ומעבר מלנין ומסייע בפירוק כתמים קיימים באמצעות Glycolic Acid. מתאים לטיפול בכתמי שמש, כתמים הורמונליים וכתמים לאחר אקנה, ומעניק תוצאות מרשימות. לשימוש מיטבי מומלץ לשלב עם וייט אקטיבטור ליקוויג’ל.",
+    "ingredients": [
+      "8% Diethylamnomethylocoumarin",
+      "5% Tetrahydrodeferulymethane",
+      "4% Hydroxicannamc Acid",
+      "3% Cysteamine HCL",
+      "3% Gallic Acid",
+      "2.5% Licorice Extract",
+      "0.5% Isobutilamod Resorcinol"
+    ],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "וויט אקטיבטור ליקוויג'ל | WHITE ACTIVATOR LIQUIGEL",
+    "category": "פיגמנטציה והבהרה",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2023/01/Activator.png",
+    "description": "מוצר משלים לתכשירי ההבהרה וויט אינטנסיב ובוסטר, המשמש כמדלל ומסייע להעמקת חדירת החומרים הפעילים, תוך הגברת הלחות והרגעת העור. מיועד לשימוש יחד עם וויט אינטנסיב ליקוויג’ל ווויט בוסטר ליקוויג’ל להשגת תוצאות מיטביות.",
+    "ingredients": [
+      "Diethylaminomethylcoumarin",
+      "Acid Clover",
+      "Dichlorobenzyl Alcohol",
+      "Superoxide",
+      "Dismutase",
+      "Galium Aparine Extract",
+      "Phenylethyl Resorcinol",
+      "Phenoxiatnol",
+      "Ethyhexylglycerin",
+      "Lsobutyamido"
+    ],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "בי וויט ג׳ל- B WHITE GEL",
+    "category": "פיגמנטציה והבהרה",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/B-White-Gel-Concentrated-4630-851x1024.jpg",
+    "description": "ג’ל טיפולי מרוכז לטיפול בכתמים, המשלב הבהרת עור עם חידוש עדין של שכבת העור העליונה להסרת תאים פיגמנטריים. מסייע לאחידות הגוון ומשאיר את העור חדש, בריא וחלק יותר.",
+    "ingredients": [
+      "SEBACIC ACID – מבהיר עור חדש ומהפכני.",
+      "SALICYLIC ACID – מסיר תאי עור מתים ומשאיר עור חדש וצעיר יותר.",
+      "DIPOTASSIUM GLYCYRRHIZATE – מבהיר עור.",
+      "ADIPIC ACID- ממתן יצור של פיגמנט (מלנין) חדש.",
+      "LACTIC ACID – מקנה לחות ומראה עור צעיר."
+    ],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "וויט אינטנסיבי ליקוויג׳ל- WHITE INTENSIVE LIQUIGEL",
+    "category": "פיגמנטציה והבהרה",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2023/01/WHITE-INTENSIVE-LIQUIGEL-30ml-4690-scaled.jpg",
+    "description": "תכשיר הבהרה עוצמתי המטפל בכתמי שמש, כתמים הורמונליים וכתמים לאחר אקנה. משלב רכיבים חדשניים וטבעיים, מפחית ייצור מלנין ומסייע בפירוק כתמים קיימים, תוך מניעת היווצרות חדשים והגנה מפני נזקי שמש בעזרת נוגדי חמצון. מתאים לכל גווני העור. לשימוש מיטבי יש לשלב עם וויט אקטיבטור ליקוויג’ל.",
+    "ingredients": [
+      "4.5% ACETYL GLUCOSAMINE: מטפל ומתקן נזקי שמש",
+      "4% ELLAGIC ACID: דיכוי מלנין – שלב אנזימטי",
+      "4% CINNAMIC ACID: דיכוי מלנין – שלב לא אנזימטי",
+      "4% TRANEXAMIC ACID: דיכוי יצירת מלנין חדש",
+      "3% PTEROCARPUS MARSUPIUM BARK: מבהיר עור, אנטי אוקסידנט חזק במיוחד, מטפל בדלקות PHENYLETHYL",
+      "RESORCINOL3%: מעכב העברת מלנוזום מהמלנוציטים לקרטינוציטים"
+    ],
+    "brand": "DERMALOSOPHY"
+  },
+  {
+    "title": "בי וויט קרם- B WHITE CREAM",
+    "category": "פיגמנטציה והבהרה",
+    "imageUrl": "https://dermalosophy.co.il/wp-content/uploads/2021/08/B-White-Cream-4629-837x1024.jpg",
+    "description": "קרם הבהרה מתקדם בעל פעולה משולשת: פירוק והבהרת כתמים קיימים, הפחתת ייצור מלנין ומניעת היווצרות כתמים חדשים. משלב רכיבים מרוכזים וטכנולוגיות החדרה מתקדמות, ומסייע לאחידות הגוון ושיפור מראה העור.",
+    "ingredients": [
+      "SEBACIC ACID- ממתן יצור של פיגמנט (מלנין) חדש",
+      "TRANEXAMIC ACID- מבהיר כתם קיים",
+      "ELLAGIC ACID- מבהיר כתם קיים",
+      "MAGNESIUM ASCORBYL PHOSPHATE – חומר מבהיר",
+      "KOJIC ACID – חומר מבהיר",
+      "LICORICE ROOT EXTRACT – חומר מבהיר"
+    ],
+    "brand": "DERMALOSOPHY"
+  }
+]
