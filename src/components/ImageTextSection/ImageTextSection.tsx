@@ -9,13 +9,15 @@ interface Props {
   children: ReactNode;
   reverse?: boolean;
   cta?: ReactNode;
+  /** 'cover' fills the frame (default). 'contain' shows the full image centred on a soft background. */
+  imageFit?: 'cover' | 'contain';
 }
 
-export default function ImageTextSection({ image, imageAlt = '', eyebrow, title, children, reverse, cta }: Props) {
+export default function ImageTextSection({ image, imageAlt = '', eyebrow, title, children, reverse, cta, imageFit = 'cover' }: Props) {
   return (
     <section className={`image-text-section ${reverse ? 'reverse' : ''}`}>
       <div className="container its-grid">
-        <div className="its-image reveal">
+        <div className={`its-image reveal${imageFit === 'contain' ? ' its-image--contain' : ''}`}>
           <img src={image} alt={imageAlt} loading="lazy" />
         </div>
         <div className="its-text reveal">

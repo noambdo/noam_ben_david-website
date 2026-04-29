@@ -20,6 +20,25 @@
   box-shadow: 0 20px 50px var(--color-shadow);
 }
 
+/* Logo / contain variant — shows the full image centred on a soft background */
+.its-image--contain {
+  background: var(--color-bg-soft);
+  border-radius: var(--radius-md);
+  box-shadow: 0 20px 50px var(--color-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 540px;
+}
+.its-image--contain img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 48px;
+  box-shadow: none;
+  border-radius: 0;
+}
+
 .its-text h2 {
   color: var(--color-accent-dark);
   margin-bottom: 12px;

@@ -21,7 +21,7 @@ export const images = {
   // About page — section images (in order of appearance)
   noamPortrait:  aboutMeImg,       // Section 1 – "המסע שלי"
   noamProduct:   treatmentRoomImg, // Section 2 – "מקצועיות, ידע והתפתחות"
-  clinicRoom:    'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=80',
+  clinicRoom:    logoImg,   // About page section 3 – displays logo on soft background
   noamPortrait2: meAndSerumImg,    // Section 4 – "יחס אישי וליווי מקצועי"
 
   // Misc
