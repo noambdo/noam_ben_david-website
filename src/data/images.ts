@@ -5,6 +5,7 @@ import aboutMeImg     from '../assets/aboutme.png';
 import meAndSerumImg  from '../assets/meAndSerum.png';
 import treatmentRoomImg from '../assets/treatmentRoom.png';
 import meAndBrushImg from '../assets/meAndBrush.png';
+import contactBgImg  from '../assets/dermalosophySerumTreatment.png';
 
 // Central image references — swap URLs here to update the whole site.
 export const images = {
@@ -24,6 +25,6 @@ export const images = {
   noamPortrait2: meAndSerumImg,    // Section 4 – "יחס אישי וליווי מקצועי"
 
   // Misc
-  contactBg:    'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=2000&q=80',
+  contactBg:    contactBgImg,
   questionnaire: meAndBrushImg
 };
