@@ -43,7 +43,7 @@ export default function About() {
       </ImageTextSection>
 
       <ImageTextSection
-        image={images.clinicRoom}
+        image={images.logo}
         imageAlt="לוגו נועם בן דוד"
         eyebrow="הגישה שלי"
         title="טיפול שהוא מעבר לעור"
