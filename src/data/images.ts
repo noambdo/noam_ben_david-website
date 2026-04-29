@@ -6,6 +6,7 @@ import meAndSerumImg  from '../assets/meAndSerum.png';
 import treatmentRoomImg from '../assets/treatmentRoom.png';
 import meAndBrushImg from '../assets/meAndBrush.png';
 import contactBgImg  from '../assets/dermalosophySerumTreatment.png';
+import heroAboutImg  from '../assets/HeroAbout.png';
 
 // Central image references — swap URLs here to update the whole site.
 export const images = {
@@ -14,7 +15,7 @@ export const images = {
 
   // Heroes
   heroHome:         homeHeroImg,
-  heroAbout:        'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=2000&q=80',
+  heroAbout:        heroAboutImg,
   heroTreatment:    'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=2000&q=80',
   heroTestimonials: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=2000&q=80',
 
