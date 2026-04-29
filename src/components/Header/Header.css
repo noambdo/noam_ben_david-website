@@ -109,8 +109,18 @@
   border-bottom: 1px solid var(--color-border);
   padding-bottom: 12px;
 }
-.megamenu-col ul { list-style: none; padding: 0; margin: 0; }
-.megamenu-col li { margin-bottom: 10px; }
+.megamenu-col ul {
+  display: block;   /* override .primary-nav ul flex so items stack vertically */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+}
+.megamenu-col li {
+  display: block;
+  margin-bottom: 10px;
+  border-bottom: none; /* override mobile .primary-nav li rule */
+}
 .megamenu-col a {
   font-size: 0.95rem;
   color: var(--color-text);
