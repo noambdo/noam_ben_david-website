@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <main className="page contact-page">
       <Hero
-        image={images.heroAbout}
+        image={images.heroContact}
         thin
         title="יצירת קשר"
         subtitle="אשמח לשמוע ממך, להתאים יחד את הטיפול הנכון ולקבוע פגישה."
