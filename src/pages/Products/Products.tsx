@@ -47,7 +47,7 @@ export default function Products() {
   return (
     <main className="page products">
       <Hero
-        image={images.heroTreatment}
+        image={images.heroProduct}
         thin
         title="המוצרים שלנו"
         subtitle="מוצרי טיפוח מקצועיים בהתאמה אישית – איכות שמרגישים על העור."

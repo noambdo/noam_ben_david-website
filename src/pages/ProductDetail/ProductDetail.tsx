@@ -6,11 +6,59 @@ import { images } from '../../data/images';
 import './ProductDetail.css';
 
 const WHY_ITEMS = [
-  { icon: '✓', text: 'אבחון מקצועי והתאמה אישית' },
-  { icon: '✓', text: 'ליווי אישי לאורך כל התהליך' },
-  { icon: '✓', text: 'מוצרים איכותיים בלבד' },
-  { icon: '✓', text: 'משלוח מהיר לכל הארץ' },
-  { icon: '✓', text: 'שירות אישי ואמין' },
+  {
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        {/* Glowing face */}
+        <path d="M18 28c-6 0-9-4.5-9-10S12.5 8 18 8s9 4 9 10c0 5.5-3 10-9 10z" />
+        <circle cx="14" cy="17" r="1.2" fill="currentColor" stroke="none" />
+        <circle cx="22" cy="17" r="1.2" fill="currentColor" stroke="none" />
+        <path d="M14.5 22.5c.8 1.2 2 1.8 3.5 1.8s2.7-.6 3.5-1.8" />
+        <path d="M28.5 7.5l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z" />
+        <path d="M5.5 10.5l.5 1.5 1.5.5-1.5.5-.5 1.5-.5-1.5-1.5-.5 1.5-.5z" />
+      </svg>
+    ),
+    text: 'אבחון מקצועי והתאמה אישית',
+  },
+  {
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        {/* Heart / personal care */}
+        <path d="M18 28l-1.2-1.1C9 19.5 6.5 17 6.5 13.2a6 6 0 0 1 6-6 6 6 0 0 1 5.5 3.5 6 6 0 0 1 5.5-3.5 6 6 0 0 1 6 6c0 3.8-2.5 6.3-10.3 13.7z" />
+      </svg>
+    ),
+    text: 'ליווי אישי לאורך כל התהליך',
+  },
+  {
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        {/* Serum drop */}
+        <path d="M18 6L9 19a9 9 0 0 0 18 0z" />
+        <path d="M22 24a4.5 4.5 0 0 1-4 3.5" />
+      </svg>
+    ),
+    text: 'מוצרים איכותיים בלבד',
+  },
+  {
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        {/* Leaf / natural */}
+        <path d="M9 27C9 15 21 8 29 8c0 12-8 20-20 19z" />
+        <path d="M9 27c2-3 7-9 13-14" />
+      </svg>
+    ),
+    text: 'רכיבים פעילים ואפקטיביים',
+  },
+  {
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        {/* Shield + check */}
+        <path d="M18 5L6 9v9c0 8 5.5 13 12 15.5C24.5 31 30 26 30 18V9z" />
+        <path d="M13 18l4 4 7-8" />
+      </svg>
+    ),
+    text: 'שירות אמין ומשלוח מהיר',
+  },
 ];
 
 export default function ProductDetail() {
@@ -36,13 +84,8 @@ export default function ProductDetail() {
 
   return (
     <main className="page product-detail">
-      {/* Thin hero */}
-      <Hero
-        image={images.heroTreatment}
-        thin
-        title={product.title}
-        eyebrow={product.category}
-      />
+      {/* Thin hero — image only, no title */}
+      <Hero image={images.heroTreatment} thin />
 
       {/* Product main section */}
       <section className="section pd-main">
@@ -119,9 +162,9 @@ export default function ProductDetail() {
           <h2 className="pd-why-title reveal">למה לקנות אצלנו?</h2>
           <div className="pd-why-grid">
             {WHY_ITEMS.map((item, i) => (
-              <div className="pd-why-item reveal" key={i} style={{ transitionDelay: `${i * 0.07}s` }}>
-                <span className="pd-why-icon">{item.icon}</span>
-                <span>{item.text}</span>
+              <div className="pd-why-card reveal" key={i} style={{ transitionDelay: `${i * 0.07}s` }}>
+                <div className="pd-why-icon">{item.icon}</div>
+                <span className="pd-why-text">{item.text}</span>
               </div>
             ))}
           </div>

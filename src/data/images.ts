@@ -7,6 +7,7 @@ import treatmentRoomImg from '../assets/treatmentRoom.png';
 import meAndBrushImg from '../assets/meAndBrush.png';
 import contactBgImg  from '../assets/dermalosophySerumTreatment.png';
 import heroAboutImg       from '../assets/aboutMeNoam.png';
+import heroProductImg     from '../assets/heroProduct.png';
 import heroContactImg      from '../assets/HeroAbout.png';
 import heroTestimonialsImg from '../assets/pinkMask.png';
 
@@ -20,6 +21,7 @@ export const images = {
   heroAbout:        heroAboutImg,
   heroContact:      heroContactImg,
   heroTreatment:    'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=2000&q=80',
+  heroProduct:      heroProductImg,
   heroTestimonials: heroTestimonialsImg,
 
   // About page — section images (in order of appearance)

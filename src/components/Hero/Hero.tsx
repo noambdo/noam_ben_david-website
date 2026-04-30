@@ -4,7 +4,7 @@ import './Hero.css';
 interface HeroProps {
   image: string;
   eyebrow?: string;
-  title: string;
+  title?: string;
   subtitle?: string;
   cta?: ReactNode;
   thin?: boolean;
@@ -16,12 +16,12 @@ export default function Hero({ image, eyebrow, title, subtitle, cta, thin = fals
     <section
       className={`hero ${thin ? 'hero-thin' : ''} hero-${align}`}
       style={{ backgroundImage: `url(${image})` }}
-      aria-label={title}
+      aria-label={title ?? 'hero'}
     >
       <div className="hero-overlay" />
       <div className="container hero-content reveal">
         {eyebrow && <span className="eyebrow">{eyebrow}</span>}
-        <h1>{title}</h1>
+        {title && <h1>{title}</h1>}
         {subtitle && <p className="hero-subtitle">{subtitle}</p>}
         {cta && <div className="hero-cta">{cta}</div>}
       </div>
