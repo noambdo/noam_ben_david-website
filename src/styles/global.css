@@ -1,3 +1,14 @@
+/* ── Custom fonts ── */
+@font-face {
+  font-family: 'Assistant';
+  src: url('/fonts/Assistant Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  /* Apply ONLY to Hebrew characters — English falls back to Heebo */
+  unicode-range: U+0590-05FF, U+FB1D-FB4F, U+20AA;
+}
+
 *,
 *::before,
 *::after { box-sizing: border-box; }

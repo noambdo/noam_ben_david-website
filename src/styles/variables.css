@@ -14,8 +14,8 @@
   --color-border: #e5d7c8;
   --color-shadow: rgba(80, 55, 35, 0.12);
 
-  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
-  --font-sans: 'Heebo', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Cormorant Garamond', 'Assistant', serif;
+  --font-sans: 'Assistant', 'Heebo', system-ui, -apple-system, sans-serif;
 
   --header-height: 84px;
   --max-width: 1280px;

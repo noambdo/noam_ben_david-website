@@ -30,10 +30,42 @@
   margin: 0 auto;
 }
 
-.hero-start .hero-content {
+/* Right-aligned hero: content pinned to the right 50% */
+.hero-start > .hero-content {
+  flex: 0 0 50%;
+  width: 50%;
+  max-width: 50%;
+  min-width: 0;                  /* override flex default min-width:auto so it can actually shrink */
+  margin: 0;                     /* cancel .hero-content margin:0 auto */
+  padding: 0 150px 0 16px;       /* 150px gap from the right edge in RTL (desktop) */
   text-align: right;
-  margin: 0;
-  margin-inline-end: auto;
+  box-sizing: border-box;
+}
+
+/* Wrap the long title onto multiple lines instead of one wide line */
+.hero-start > .hero-content h1 {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: pre-line; /* respects \n in the title string */
+}
+
+/* Subtitle should also be right-aligned and full-width inside the 50% column */
+.hero-start .hero-subtitle {
+  margin: 0 0 30px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero-start > .hero-content {
+    flex: 1 1 100%;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 24px;
+    text-align: center;
+  }
+  .hero-start .hero-subtitle {
+    margin: 0 auto 30px;
+  }
 }
 
 .hero-content h1 {

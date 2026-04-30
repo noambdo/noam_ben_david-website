@@ -20,9 +20,10 @@ export default function Home() {
     <main className="page home">
       <Hero
         image={images.heroHome}
-        title="עור בריא. טיפול מדויק. תוצאה טבעית."
+        title={"עור בריא.\nטיפול מדויק.\nתוצאה טבעית."}
         subtitle="טיפולי פנים בהתאמה אישית עם ליווי מקצועי ונעים."
         cta={<Link to="/contact" className="btn">לקביעת שיחה</Link>}
+        align="start"
       />
 
       <section className="section section-soft">
